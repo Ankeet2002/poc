@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "cd scrollbar-demo && npm install",
+  "buildCommand": "cd scrollbar-demo && npm run build",
+  "outputDirectory": "scrollbar-demo/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
